@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="sty.css">
+	<script type="text/javascript" src="mess.js"></script>
+</head>
+<body>
+<h1>NUTRICHECK</h1>
+<form>
+	Name:<br>
+	<input type="text" id="name" name="name" required><br>
+	Height(in cm):<br>
+	<input type="number" id="height" name="height" required>
+	<br>
+    Weight(in kg):<br>
+    <input type="number" id="weight" name="weight" required>
+    <br>
+    Age:<br> 
+    <input type="number" id="age" name="age" required><br>
+</form>
+<form>
+	Gender:<br>
+	<input type="radio" name="gender" id="gender" value="male">Male<br>
+	<input type="radio" name="gender" id="gender" value="female">Female
+	<br>
+</form>
+
+<button type="button" onclick="bmical()">Evaluvate BMI
+</button><br>
+   BMI=<input type="number" name="bmi" 
+   id="bmi"><br> 
+   You are=<input type="text" name="rec" 
+   id="rec"><br> 
+<button type="button" onclick="eval()">Determine calorie limit</button><br>
+   Calorie limit=<input type="number" name="requirement" 
+   id="requirement"><br> 
+<form>
+	Food:<br>
+	<input type="text" name="food" required><br>
+	Carbohydrate(in g):<br>
+	<input type="number" id="carbohydrate" name="carbohydrate" required><br>
+	Fat(in g):<br>
+	<input type="number" id="fat" name="fat" required><br>
+	Protein(in g):<br>
+	<input type="number" id="protein" name="protein" required><br>
+<button type="reset" value="Reset">Add more</button><br>
+</form>
+<button type="button" onclick="calc()">Calculate</button><br>
+   Calories=<input type="number" name="calories" id="calories"> 
+
+
+
+
+
+</body>
+</html>
